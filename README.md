@@ -40,7 +40,10 @@ This outline is also given wihtin the Jupyter notebook for the project.
 
 #### Recall, U gates are definied as follows: 
 
-$U(\theta, \varphi, \lambda)$ = $$\begin{bmatrix} \cos \left( \tfrac{\theta}{2} \right) & - e^{i \lambda} \sin \left( \tfrac{\theta}{2} \right) \\ e^{i \varphi} \sin \left( \tfrac{\theta}{2} \right) & e^{i (\varphi + \lambda)} \cos \left( \tfrac{\theta}{2} \right) \end{bmatrix}$$,
+$U(\theta, \varphi, \lambda)$ = $$\begin{bmatrix}
+    \cos \left( \tfrac{\theta}{2} \right) & - e^{i \lambda} \sin \left( \tfrac{\theta}{2} \right) \\
+    e^{i \varphi} \sin \left( \tfrac{\theta}{2} \right) & e^{i (\varphi + \lambda)} \cos \left( \tfrac{\theta}{2} \right) 
+    \end{bmatrix}$$,
 
 for some $(\theta, \varphi, \lambda) \in \left[ 0, 2 \pi \right)^3$. 
 
@@ -60,11 +63,11 @@ And we can view the action on our basis vectors as:
 
 $$|00>\rightarrow{|00>}$$
 
-$|01>\rightarrow{|11>}$
+$$|01>\rightarrow{|11>}$$
 
-$|10>\rightarrow{|10>}$
+$$|10>\rightarrow{|10>}$
 
-$|11>\rightarrow{|01>}$
+$|11>\rightarrow{|01>}$$
 
 ### Toffoli Gates 
 
@@ -72,7 +75,7 @@ Are constructed from the permitted gates.
 
 ### Multicontrolled U-Gate 
 
-Is built using 2(n-1) Toffoli gates and the desired U gate. 
+Is built using $2(n-1)$ Toffoli gates and the desired U gate. 
 
 
 
