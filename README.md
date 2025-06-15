@@ -65,9 +65,9 @@ $$|00>\rightarrow{|00>}$$
 
 $$|01>\rightarrow{|11>}$$
 
-$$|10>\rightarrow{|10>}$
+$$|10>\rightarrow{|10>}$$
 
-$|11>\rightarrow{|01>}$$
+$$|11>\rightarrow{|01>}$$
 
 ### Toffoli Gates 
 
