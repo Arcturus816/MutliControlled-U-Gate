@@ -40,7 +40,7 @@ This outline is also given wihtin the Jupyter notebook for the project.
 
 #### Recall, U gates are definied as follows: 
 
-$$U(\theta, \varphi, \lambda) = \begin{bmatrix} \cos \left( \tfrac{\theta}{2} \right) & - e^{i \lambda} \sin \left( \tfrac{\theta}{2} \right) \\ e^{i \varphi} \sin \left( \tfrac{\theta}{2} \right) & e^{i (\varphi + \lambda)} \cos \left( \tfrac{\theta}{2} \right) \end{bmatrix}$$,
+$U(\theta, \varphi, \lambda)$ = $$\begin{bmatrix} \cos \left( \tfrac{\theta}{2} \right) & - e^{i \lambda} \sin \left( \tfrac{\theta}{2} \right) \\ e^{i \varphi} \sin \left( \tfrac{\theta}{2} \right) & e^{i (\varphi + \lambda)} \cos \left( \tfrac{\theta}{2} \right) \end{bmatrix}$$,
 
 for some $(\theta, \varphi, \lambda) \in \left[ 0, 2 \pi \right)^3$. 
 
@@ -54,7 +54,7 @@ $$CX \ket{x}\ket{y} = \ket{x} \ket{x \oplus y} = \left\{ \begin{array}{ll} \ket{
 
 Its matrix in the computational basis:
 
-$$[CX] = \begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \end{bmatrix}$$.
+$$[CX]$$ = $$\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \end{bmatrix}$$.
 
 And we can view the action on our basis vectors as: 
 
