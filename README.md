@@ -51,15 +51,9 @@ Every 1-qubit gate can be written in this form.
 
 -----------------------------------------------------
 
-#### CX gates are 2-qubit gates, also known as "Controlled-NOT" gates, defined as:
+#### CX gates are 2-qubit gates, also known as "Controlled-NOT" gates:
 
-$$CX \ket{x}\ket{y} = \ket{x} \ket{x \oplus y} = \left\{ \begin{array}{ll} \ket{x} \ket{y}, & \textnormal{if } x = 0, \\ \ket{x} \ket{1 \oplus y}, & \textnormal{if } x = 1. \end{array} \right.$$
-
-Its matrix in the computational basis:
-
-$$[CX]$$ = $$\begin{bmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \end{bmatrix}$$.
-
-And we can view the action on our basis vectors as: 
+We can view the action on our basis vectors as: 
 
 $$|00>\rightarrow{|00>}$$
 
