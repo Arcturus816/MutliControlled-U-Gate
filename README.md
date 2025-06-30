@@ -75,3 +75,6 @@ Is built using $2(n-1)$ Toffoli gates and the desired U gate.
 
 ## Sources 
 My implementation was informed by the contrusctions in Chapter II, Section 4 of Nielsen and Chuang. 
+
+## Contact
+Amanda Curtis - dr.curtis.math (at) gmail (dot) com
