@@ -40,7 +40,8 @@ This outline is also given wihtin the Jupyter notebook for the project.
 
 #### Recall, U gates are definied as follows: 
 
-$U(\theta, \varphi, \lambda)$ = $$\begin{bmatrix}
+$U(\theta, \varphi, \lambda)$ = 
+$$\begin{bmatrix}
     \cos \left( \tfrac{\theta}{2} \right) & - e^{i \lambda} \sin \left( \tfrac{\theta}{2} \right) \\
     e^{i \varphi} \sin \left( \tfrac{\theta}{2} \right) & e^{i (\varphi + \lambda)} \cos \left( \tfrac{\theta}{2} \right) 
     \end{bmatrix}$$,
