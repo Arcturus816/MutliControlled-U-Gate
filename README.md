@@ -42,8 +42,8 @@ This outline is also given wihtin the Jupyter notebook for the project.
 
 $U(\theta, \varphi, \lambda)$ = 
 $\begin{bmatrix}
-    \cos \left( \tfrac{\theta}{2} \right) & - e^{i \lambda} \sin \left( \tfrac{\theta}{2} \right) \\
-    e^{i \varphi} \sin \left( \tfrac{\theta}{2} \right) & e^{i (\varphi + \lambda)} \cos \left( \tfrac{\theta}{2} \right) 
+    \cos\left(\tfrac{\theta}{2}\right) & -e^{i\lambda}\sin\left(\tfrac{\theta}{2}\right) \\
+    e^{i\varphi}\sin\left(\tfrac{\theta}{2}\right) & e^{i(\varphi+\lambda)}\cos\left(\tfrac{\theta}{2}\right)
     \end{bmatrix}$,
 
 for some $(\theta, \varphi, \lambda) \in \left[ 0, 2 \pi \right)^3$. 
